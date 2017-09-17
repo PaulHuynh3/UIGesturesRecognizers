@@ -12,6 +12,10 @@
 		DA3AE1B51F6B23750039D46D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3AE1B31F6B23750039D46D /* Main.storyboard */; };
 		DA3AE1B71F6B23750039D46D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA3AE1B61F6B23750039D46D /* Assets.xcassets */; };
 		DA3AE1BA1F6B23750039D46D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA3AE1B81F6B23750039D46D /* LaunchScreen.storyboard */; };
+		DA3AE1C31F6B28230039D46D /* PanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3AE1C21F6B28230039D46D /* PanViewController.m */; };
+		DA3AE1C61F6B28370039D46D /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3AE1C51F6B28370039D46D /* TabViewController.m */; };
+		DA3AE1CC1F6B30260039D46D /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA3AE1CB1F6B30260039D46D /* PinchViewController.m */; };
+		DA9958F31F6B487100309121 /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9958F21F6B487100309121 /* SwipeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,14 @@
 		DA3AE1B61F6B23750039D46D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA3AE1B91F6B23750039D46D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA3AE1BB1F6B23750039D46D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA3AE1C11F6B28230039D46D /* PanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PanViewController.h; path = UIGestureRecognizers/PanViewController.h; sourceTree = "<group>"; };
+		DA3AE1C21F6B28230039D46D /* PanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PanViewController.m; path = UIGestureRecognizers/PanViewController.m; sourceTree = "<group>"; };
+		DA3AE1C41F6B28370039D46D /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabViewController.h; path = UIGestureRecognizers/TabViewController.h; sourceTree = "<group>"; };
+		DA3AE1C51F6B28370039D46D /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabViewController.m; path = UIGestureRecognizers/TabViewController.m; sourceTree = "<group>"; };
+		DA3AE1CA1F6B30260039D46D /* PinchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchViewController.h; sourceTree = "<group>"; };
+		DA3AE1CB1F6B30260039D46D /* PinchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
+		DA9958F11F6B487100309121 /* SwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
+		DA9958F21F6B487100309121 /* SwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +51,14 @@
 		DA3AE19E1F6B23750039D46D = {
 			isa = PBXGroup;
 			children = (
+				DA3AE1C11F6B28230039D46D /* PanViewController.h */,
+				DA3AE1C21F6B28230039D46D /* PanViewController.m */,
+				DA3AE1C41F6B28370039D46D /* TabViewController.h */,
+				DA3AE1C51F6B28370039D46D /* TabViewController.m */,
+				DA3AE1CA1F6B30260039D46D /* PinchViewController.h */,
+				DA3AE1CB1F6B30260039D46D /* PinchViewController.m */,
+				DA9958F11F6B487100309121 /* SwipeViewController.h */,
+				DA9958F21F6B487100309121 /* SwipeViewController.m */,
 				DA3AE1A91F6B23750039D46D /* UIGestureRecognizers */,
 				DA3AE1A81F6B23750039D46D /* Products */,
 			);
@@ -145,6 +165,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA3AE1C61F6B28370039D46D /* TabViewController.m in Sources */,
+				DA3AE1C31F6B28230039D46D /* PanViewController.m in Sources */,
+				DA3AE1CC1F6B30260039D46D /* PinchViewController.m in Sources */,
+				DA9958F31F6B487100309121 /* SwipeViewController.m in Sources */,
 				DA3AE1AF1F6B23750039D46D /* AppDelegate.m in Sources */,
 				DA3AE1AC1F6B23750039D46D /* main.m in Sources */,
 			);
@@ -305,6 +329,7 @@
 				DA3AE1C01F6B23750039D46D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
